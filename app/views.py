@@ -7,9 +7,9 @@ Copyright (c) 2019 - present AppSeed.us
 import os, logging 
 
 # Flask modules
-from flask               import render_template, request, url_for, redirect, send_from_directory
-from flask_login         import login_user, logout_user, current_user, login_required
-from werkzeug.exceptions import HTTPException, NotFound, abort
+from flask               import render_template, request, url_for, redirect
+from flask_login         import login_user, logout_user, current_user
+from werkzeug.exceptions import HTTPException, NotFound
 from jinja2              import TemplateNotFound
 
 # App modules
@@ -40,7 +40,7 @@ def register():
 
     if request.method == 'GET': 
 
-        return render_template( 'register.html', form=form, msg=msg )
+        return render_template( 'accounts/register.html', form=form, msg=msg )
 
     # check if both http method is POST and form is valid on submit
     if form.validate_on_submit():
@@ -73,7 +73,7 @@ def register():
     else:
         msg = 'Input error'     
 
-    return render_template( 'register.html', form=form, msg=msg, success=success )
+    return render_template( 'accounts/register.html', form=form, msg=msg, success=success )
 
 # Authenticate user
 @app.route('/login', methods=['GET', 'POST'])
@@ -105,27 +105,25 @@ def login():
         else:
             msg = "Unknown user"
 
-    return render_template( 'login.html', form=form, msg=msg )
+    return render_template( 'accounts/login.html', form=form, msg=msg )
 
 # App main route + generic routing
-@app.route('/', defaults={'path': 'index'})
+@app.route('/', defaults={'path': 'index.html'})
 @app.route('/<path>')
 def index(path):
 
-    #if not current_user.is_authenticated:
-    #    return redirect(url_for('login'))
+    if not current_user.is_authenticated:
+        return redirect(url_for('login'))
 
     try:
 
-        return render_template( 'index.html' )
+        # Serve the file (if exists) from app/templates/FILE.html
+        return render_template( 'home/' + path )
     
     except TemplateNotFound:
-        return render_template('page-404.html'), 404
+        return render_template('home/page-404.html'), 404
     
     except:
-        return render_template('page-500.html'), 500
+        return render_template('home/page-500.html'), 500
 
-# Return sitemap
-@app.route('/sitemap.xml')
-def sitemap():
-    return send_from_directory(os.path.join(app.root_path, 'static'), 'sitemap.xml')
+
