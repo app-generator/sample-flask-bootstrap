@@ -1,4 +1,9 @@
 
+## [0.0.3] 2020-10-01
+### Added a Flask Message  
+
+- Added a simple flash message (visible in the presentation page)
+
 ## [0.0.2] 2020-10-01
 ### Improvemens
 
