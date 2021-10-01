@@ -1,10 +1,12 @@
-# [Flask User Authentication](https://blog.appseed.us/flask-user-authentication-free-sample/)
+# How to use Bootstrap with Flask
 
-Open-source Flask project that implements a simple authentication system using `Flask-Login` library - Features:
+Open-source Flask project enhanced with session-based authentication via `Flask-Login` and a simple UI powered by `Bootstrap`. For newcomers Flask is a popular web framework used to code from simple one-page websites to complex eCommerce solutions and Bootstrap is the most popular JS/CSS framework.  
+
+<br />
 
 - Up-to-date [dependencies](./requirements.txt): **Flask 2.0.1**
 - Authentication layer: `Flask-Login`
-- UI: Bootstrap5 via `CDN`
+- UI: Bootstrap5
 - Support via **Github** (issues tracker) and [Discord](https://discord.gg/fZC6hup).
 
 <br />
@@ -19,8 +21,8 @@ Open-source Flask project that implements a simple authentication system using `
 
 ```bash
 $ # Clone the sources
-$ git clone https://github.com/app-generator/flask-user-authentication.git
-$ cd flask-user-authentication
+$ git clone https://github.com/app-generator/flask-how-to-use-with-bootstrap.git
+$ cd flask-how-to-use-with-bootstrap
 ```
 
 <br />
@@ -128,9 +130,10 @@ The project has a super simple structure, represented as bellow:
 ## Resources
 
 - Free [Admin Dashboards](https://appseed.us/admin-dashboards/open-source) - index provided by AppSeed
+- [Flask User Authentication](https://blog.appseed.us/flask-user-authentication-free-sample/) - blog article
 - [Flask Social Login](https://blog.appseed.us/flask-social-login-with-github/) - blog article (includes a free sample)
 
 <br />
 
 ---
-[Flask User Authentication](https://blog.appseed.us/flask-user-authentication-free-sample/) - Free sample provided by **AppSeed [App Generator](https://appseed.us/app-generator)**.
+How to use Bootstrap with Flask - Free sample provided by **AppSeed [App Generator](https://appseed.us/app-generator)**.
