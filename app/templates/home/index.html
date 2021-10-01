@@ -90,6 +90,15 @@
                         <h2 class="lead fw-normal text-muted mb-4 px-lg-10">
                             Open-source starter designed on top of Bootstrap 5 UI Kit (No jQuery)
                         </h2>
+                        <h5>
+                            {% with messages = get_flashed_messages() %}
+                                {% if messages %}
+                                    {% for message in messages %}
+                                        {{ message }}
+                                    {% endfor %}
+                                {% endif %}
+                            {% endwith %}                        
+                        </h5>
                         <!-- Button Modal -->
                         <div class="d-flex justify-content-center align-items-center mb-5">
                             <a href="#components" class="btn btn-tertiary mb-3 mt-2 me-2 me-md-3 animate-up-2"><span

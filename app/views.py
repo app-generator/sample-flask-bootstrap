@@ -7,7 +7,7 @@ Copyright (c) 2019 - present AppSeed.us
 import os, logging 
 
 # Flask modules
-from flask               import render_template, request, url_for, redirect
+from flask               import render_template, request, url_for, redirect, flash
 from flask_login         import login_user, logout_user, current_user
 from werkzeug.exceptions import HTTPException, NotFound
 from jinja2              import TemplateNotFound
@@ -117,6 +117,9 @@ def index(path):
 
     try:
 
+        # Inject a simple flask message  
+        flash('[Flash message] current page: ' + path)
+        
         # Serve the file (if exists) from app/templates/FILE.html
         return render_template( 'home/' + path )
     
