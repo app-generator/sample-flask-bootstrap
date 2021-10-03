@@ -6,7 +6,7 @@ Open-source Flask project enhanced with session-based authentication via `Flask-
 
 - Up-to-date [dependencies](./requirements.txt): **Flask 2.0.1**
 - Authentication layer: `Flask-Login`
-- UI: Bootstrap5
+- UI: **Bootstrap 5**
 - Versions: 
   - [v0.0.1](https://github.com/app-generator/flask-how-to-use-with-bootstrap/releases/tag/v0.0.1) - minimal version styled with simple Bootstrap 5 Components
   - [v0.0.2](https://github.com/app-generator/flask-how-to-use-with-bootstrap/releases/tag/v0.0.2) - version that integrated **Pixel Lite** design
