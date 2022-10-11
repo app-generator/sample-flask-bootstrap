@@ -2,7 +2,15 @@
 
 Open-source Flask project enhanced with session-based authentication via `Flask-Login` and a simple UI powered by `Bootstrap`. For newcomers Flask is a popular web framework used to code from simple one-page websites to complex eCommerce solutions and Bootstrap is the most popular JS/CSS framework.  
 
-<br />
+<br /> 
+
+> 🚀 `PROMO`: **[Junior Developers Starter KIT](https://www.creative-tim.com/product/buy/bundle/junior-bundle?AFFILIATE=128200)** `85%OFF`
+
+The package includes a `rock-solid collection of premium assets` (**Kits & Dashboards**) that can be used to build eye-catching portfolios and web apps in no time.
+
+[![Junior Developers Starter KIT](https://user-images.githubusercontent.com/51854817/195055646-e55200cd-0ddd-4bdd-aded-0d4e4479789b.png)](https://www.creative-tim.com/product/buy/bundle/junior-bundle?AFFILIATE=128200)
+
+<br /> 
 
 - Up-to-date [dependencies](./requirements.txt): **Flask 2.0.1**
 - Authentication layer: `Flask-Login`
