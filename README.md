@@ -12,7 +12,7 @@ The package includes a `rock-solid collection of premium assets` (**Kits & Dashb
 
 <br /> 
 
-- Up-to-date [dependencies](./requirements.txt): **Flask 2.0.1**
+- `Up-to-date dependencies`
 - Authentication layer: `Flask-Login`
 - UI: **Bootstrap 5**
 - Versions: 
