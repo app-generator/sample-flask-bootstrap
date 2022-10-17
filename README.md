@@ -1,6 +1,6 @@
-# How to use Bootstrap with Flask
+# How to use Bootstrap with [Flask](https://appseed.us/admin-dashboards/flask/)
 
-Open-source Flask project enhanced with session-based authentication via `Flask-Login` and a simple UI powered by `Bootstrap`. For newcomers Flask is a popular web framework used to code from simple one-page websites to complex eCommerce solutions and Bootstrap is the most popular JS/CSS framework.  
+Open-source [Flask](https://appseed.us/admin-dashboards/flask/) project enhanced with session-based authentication via `Flask-Login` and a simple UI powered by `Bootstrap`. For newcomers Flask is a popular web framework used to code from simple one-page websites to complex eCommerce solutions and Bootstrap is the most popular JS/CSS framework.  
 
 <br /> 
 
@@ -18,7 +18,7 @@ The package includes a `rock-solid collection of premium assets` (**Kits & Dashb
 - Versions: 
   - [v0.0.1](https://github.com/app-generator/flask-how-to-use-with-bootstrap/releases/tag/v0.0.1) - minimal version styled with simple Bootstrap 5 Components
   - [v0.0.2](https://github.com/app-generator/flask-how-to-use-with-bootstrap/releases/tag/v0.0.2) - version that integrated **Pixel Lite** design
-  - [Flask Pixel Lite](https://appseed.us/product/pixel-bootstrap/flask/) - a complete starter wit more features
+  - [Flask Pixel Lite](https://appseed.us/product/pixel-bootstrap/flask/) - a complete starter with more features
 
 <br />
 
@@ -31,7 +31,6 @@ The package includes a `rock-solid collection of premium assets` (**Kits & Dashb
 > **Step #1** - Clone sources (this repo)
 
 ```bash
-$ # Clone the sources
 $ git clone https://github.com/app-generator/flask-how-to-use-with-bootstrap.git
 $ cd flask-how-to-use-with-bootstrap
 ```
