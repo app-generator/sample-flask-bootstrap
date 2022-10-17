@@ -18,7 +18,7 @@ The package includes a `rock-solid collection of premium assets` (**Kits & Dashb
 - Versions: 
   - [v0.0.1](https://github.com/app-generator/flask-how-to-use-with-bootstrap/releases/tag/v0.0.1) - minimal version styled with simple Bootstrap 5 Components
   - [v0.0.2](https://github.com/app-generator/flask-how-to-use-with-bootstrap/releases/tag/v0.0.2) - version that integrated **Pixel Lite** design
-  - [Flask Pixel Lite](https://appseed.us/apps/flask-apps/flask-pixel-bootstrap-uikit) - a complete starter wit more features
+  - [Flask Pixel Lite](https://appseed.us/product/pixel-bootstrap/flask/) - a complete starter wit more features
 
 <br />
 
