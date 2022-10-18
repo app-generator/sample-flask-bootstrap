@@ -12,9 +12,9 @@ The package includes a `rock-solid collection of premium assets` (**Kits & Dashb
 
 <br /> 
 
-- `Up-to-date dependencies`
-- Authentication layer: `Flask-Login`
-- UI: **Bootstrap 5**
+- ✅ `Up-to-date dependencies`
+- ✅ Authentication layer: `Flask-Login`
+- ✅ UI: **Bootstrap 5**
 - Versions: 
   - [v0.0.1](https://github.com/app-generator/flask-how-to-use-with-bootstrap/releases/tag/v0.0.1) - minimal version styled with simple Bootstrap 5 Components
   - [v0.0.2](https://github.com/app-generator/flask-how-to-use-with-bootstrap/releases/tag/v0.0.2) - version that integrated **Pixel Lite** design
@@ -28,7 +28,7 @@ The package includes a `rock-solid collection of premium assets` (**Kits & Dashb
 
 ## Build from sources
 
-> **Step #1** - Clone sources (this repo)
+> 👉 **Step #1** - Clone sources (this repo)
 
 ```bash
 $ git clone https://github.com/app-generator/flask-how-to-use-with-bootstrap.git
@@ -37,7 +37,7 @@ $ cd flask-how-to-use-with-bootstrap
 
 <br />
 
-> **Step #2** - Create a virtual environment
+> 👉 **Step #2** - Create a virtual environment
 
 ```bash
 $ # Virtualenv modules installation (Unix based systems)
@@ -51,7 +51,7 @@ $ # .\env\Scripts\activate
 
 <br />
 
-> **Step #3** - Install dependencies
+> 👉 **Step #3** - Install dependencies
 
 ```bash
 $ # Install requirements
@@ -60,7 +60,7 @@ $ pip3 install -r requirements.txt
 
 <br />
 
-> **Step #4** - Set Up Environment
+> 👉 **Step #4** - Set Up Environment
 
 ```bash
 $ # Set the FLASK_APP environment variable
@@ -71,7 +71,7 @@ $ (Powershell) $env:FLASK_APP = ".\run.py"
 
 <br />
 
-> **Step #5** - Create Tables (SQLite persistance)
+> 👉 **Step #5** - Create Tables (SQLite persistance)
 
 ```bash
 $ # Create tables
@@ -82,7 +82,7 @@ $ >>> db.create_all()
 
 <br />
 
-> **Step #6** - (optional) Enable DEBUG Environment (local development)
+> 👉 **Step #6** - (optional) Enable DEBUG Environment (local development)
 
 ```bash
 $ # Set up the DEBUG environment
@@ -93,7 +93,7 @@ $ # (Powershell) $env:FLASK_ENV = "development"
 
 <br />
 
-> **Step #7** - Start the project
+> 👉 **Step #7** - Start the project
 
 ```bash
 $ # Run the application
@@ -146,4 +146,4 @@ The project has a super simple structure, represented as bellow:
 <br />
 
 ---
-How to use Bootstrap with Flask - Free sample provided by **AppSeed [App Generator](https://appseed.us/app-generator)**.
+How to use Bootstrap with [Flask](https://appseed.us/admin-dashboards/flask/) - Free sample provided by **AppSeed [App Generator](https://appseed.us/app-generator)**.
