@@ -138,4 +138,4 @@ The project has a super simple structure, represented as bellow:
 <br />
 
 ---
-How to use Bootstrap with [Flask](https://appseed.us/admin-dashboards/flask/) - Free sample provided by **AppSeed [App Generator](https://appseed.us/app-generator)**.
+How to use Bootstrap with [Flask](https://appseed.us/admin-dashboards/flask/) - Free sample provided by **AppSeed [App Generator](https://appseed.us/generator/)**.
