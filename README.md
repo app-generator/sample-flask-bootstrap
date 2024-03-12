@@ -1,18 +1,26 @@
 # How to use Bootstrap with [Flask](https://appseed.us/admin-dashboards/flask/)
 
-Open-source [Flask](https://appseed.us/admin-dashboards/flask/) project enhanced with session-based authentication via `Flask-Login` and a simple UI powered by `Bootstrap`. For newcomers Flask is a popular web framework used to code from simple one-page websites to complex eCommerce solutions and Bootstrap is the most popular JS/CSS framework.  
+Open-source [Flask](https://appseed.us/admin-dashboards/flask/) project enhanced with session-based authentication via `Flask-Login` and a simple UI powered by `Bootstrap`. For newcomers, Flask is a popular web framework used to code from simple one-page websites to complex eCommerce solutions and Bootstrap is the most popular JS/CSS framework.  
 
 <br /> 
 
-- ✅ `Up-to-date dependencies`
-- ✅ Authentication layer: `Flask-Login`
-- ✅ UI: **Bootstrap 5**
-- Versions: 
-  - [v0.0.1](https://github.com/app-generator/flask-how-to-use-with-bootstrap/releases/tag/v0.0.1) - minimal version styled with simple Bootstrap 5 Components
-  - [v0.0.2](https://github.com/app-generator/flask-how-to-use-with-bootstrap/releases/tag/v0.0.2) - version that integrated **Pixel Lite** design
-  - [Flask Pixel Lite](https://appseed.us/product/pixel-bootstrap/flask/) - a complete starter with more features
+## Features
 
-<br />
+> `Have questions?` Contact **[Support](https://appseed.us/support/)** (Email & Discord) provided by **AppSeed**
+
+| Free Version                          | [PRO Version](https://appseed.us/product/pixel-bootstrap-pro/flask/)          | 🚀 Custom - $3,999         |  
+| --------------------------------------| --------------------------------------| --------------------------------------|
+| ✓ **Bootstrap 5**                         | **Everything in Free**, plus:                                        | **Everything in PRO**, plus:       |
+| ✓ Flask-Login                             | ✅ **Premium Bootstrap 5 Design**                                    | ✅ **1mo Custom Development**     | 
+| ✓ Session-based Authentication            | ✅ `Auth` Provided by **Flask-Security-Too**                         | ✅ **Dedicated Developer**        |
+| -                                         | ✅ `Extended User Model`                                             | ✅ Weekly Sprints                 |
+| -                                         | ✅ `Users Roles`                                                     | ✅ Technical SPECS               |
+| -                                         | ✅ `Private REPO Access`                                             | ✅ Documentation                  |
+| -                                         | ✅ **PRO Support** - [Email & Discord](https://appseed.us/support/)  | ✅ **30 days Delivery Warranty**  |
+| -                                         | ✅ Deployment Assistance                                             |  -                                 |
+| -                                         | -                                                                     |  -                                 
+| ---------------------------------         | ---------------------------------                                     | ---------------------------------  |
+| ✓ [LIVE Demo](https://flask-pixel-lite.appseed-srv1.com/)  | 🚀 [LIVE Demo](https://flask-pixel-enhanced.onrender.com/) `PRO` | 🛒 `Order`: **[$3,999](https://appseed.gumroad.com/l/rocket-package)** (GUMROAD) |   
 
 ![Flask User Authentication - Free sample provided by AppSeed.](https://user-images.githubusercontent.com/51070104/134959525-3ad0c71c-27e4-45f7-b7b9-53b76f3884bf.png)
 
@@ -23,8 +31,8 @@ Open-source [Flask](https://appseed.us/admin-dashboards/flask/) project enhanced
 > 👉 **Step #1** - Clone sources (this repo)
 
 ```bash
-$ git clone https://github.com/app-generator/flask-how-to-use-with-bootstrap.git
-$ cd flask-how-to-use-with-bootstrap
+$ git clone https://github.com/app-generator/sample-flask-bootstrap.git
+$ cd sample-flask-bootstrap
 ```
 
 <br />
@@ -138,4 +146,4 @@ The project has a super simple structure, represented as bellow:
 <br />
 
 ---
-How to use Bootstrap with [Flask](https://appseed.us/admin-dashboards/flask/) - Free sample provided by **AppSeed [App Generator](https://appseed.us/generator/)**.
+How to use Bootstrap with [Flask](https://appseed.us/admin-dashboards/flask/) - Free sample provided by **[AppSeed](https://appseed.us)**.
